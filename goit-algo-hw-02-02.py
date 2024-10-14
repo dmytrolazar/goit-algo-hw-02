@@ -11,7 +11,5 @@ def check_for_palindrome(word_deque: deque):
         print(f"Введене слово є паліндромом.")
 
 while True:
-    # word = 
-    # print(word)
     check_for_palindrome(deque("".join(input("Введіть слово для перевірки: ").split()).lower()))
 
